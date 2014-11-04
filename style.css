@@ -70,14 +70,15 @@ p:first-line{
 #nav{
 	padding: 0px 10% 0px 10%;
     margin:0;
-    background-color:#FF6138;
+    /*background-color:#FF6138;*/
+    background-color:#fff;
 	overflow: show;
     position:fixed;
     top: 0px;
     height: 50px;
     width:100%;
     z-index: 20;
-    border-bottom:rgba(0,0,0,0.2) solid;
+    border-bottom: #000 solid;
     border-bottom-width:4px;
 }
 
@@ -97,7 +98,7 @@ h2{ /*nav bar titles*/
 }
 
 h2 a{
-    color: #fff;
+    color: #000;
 }
 
 ul li{
@@ -108,15 +109,16 @@ ul li{
 ul li a:hover{
     display: inline;
     list-style-type: none;
-    border-bottom: 2px solid;
-    color: #fff;
+    /*border-bottom: 2px solid;*/
+    opacity: 80%;
 }
 
 li:first-child a:hover{
     display: inline;
     list-style-type: none;
     border-bottom: none;
-    color: #fff;
+    /*color: #fff;*/
+    opacity: 80%;
 }
     
 #current{
