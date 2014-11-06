@@ -267,6 +267,7 @@ li:first-child a:hover{
 
 .project{
 	width: 180px;
+    height: 220px;
 	float: left;
 	margin: 5px 3%;
 	text-align: center;
@@ -276,7 +277,7 @@ li:first-child a:hover{
     color: #000;
     position: relative;
     z-index:-1;
-    top: -10px;  
+    top: -190px;  
     opacity: 0; 
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
@@ -300,11 +301,14 @@ img{
 }
 
 .color{    
-    display:none;
+    display:inline;
+    position:relative;
+    bottom: 173px;
+    opacity: 0;
 }
 
 
-/*
+
 
 img{-webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
@@ -313,7 +317,6 @@ img{-webkit-transition: all 0.2s ease-in;
 }
 
 .color {
-    position: relative; 
     opacity:0; 
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
@@ -322,12 +325,9 @@ img{-webkit-transition: all 0.2s ease-in;
 }
 
 .project:hover  .color{
-    position: sticky; 
-    display: block;
-    opacity: 1; 
-    bottom: 0px; 
+    opacity: 1;
 }
-*/
+
 
 
 /*
