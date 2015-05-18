@@ -1,0 +1,52 @@
+
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;  
+	min-height: 100%; 
+	
+}
+
+.jumbotron {
+	height: 100%;
+    background-image: url(images/fern.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;  
+
+}
+
+.vertical-center {
+  	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  	display: flex;
+  	align-items: center;
+}
+
+.jumbotron h1 {
+	border:solid; 
+	border-width: .1em;
+	border-color: white; 
+	font-family: monospace;
+	padding-left: .2em;
+	padding-right: .2em;
+}
+
+.close-padding {
+	padding-bottom: 10px;
+}
+
+.modal-footer {
+	text-align: left;
+}
+
+
+footer {
+	padding-bottom: 20px;
+}

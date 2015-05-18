@@ -1,0 +1,42 @@
+
+.landing{
+    margin-top: 15em;
+}
+
+.landing-text{
+    padding: 20px;
+    border: 6px solid;
+    margin-bottom: -.2em;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    word-spacing: normal;
+}
+
+h4,h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    margin-bottom: -.5em;
+    font-kerning: 
+}
+
+i{
+    font-family: monospace;
+    font-weight: 400; 
+}
+
+a{
+    color:mediumblue;
+}
+
+a:hover{
+    color:greenyellow;
+    text-decoration:none;
+}
+
+a:focus{
+    color:greenyellow;
+    
+}
