@@ -1,5 +1,5 @@
 
-.landing{
+.section{
     margin-top: 15em;
 }
 
@@ -19,24 +19,25 @@ h4,h3{
     font-family: 'Lato', sans-serif;
     font-weight: 400; 
     margin-bottom: -.5em;
-    font-kerning: 
+    word-spacing: 1px;
 }
 
 i{
     font-family: monospace;
     font-weight: 400; 
+    word-spacing: 0px;
 }
 
 a{
     color:mediumblue;
+    
 }
 
 a:hover{
-    color:greenyellow;
-    text-decoration:none;
+    color:mediumblue;
 }
 
 a:focus{
-    color:greenyellow;
+    color:lawngreen;
     
 }
