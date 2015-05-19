@@ -142,6 +142,10 @@ h3 a:hover{
     padding-bottom: 6.8em;
 }
 
+.section{
+    overflow: auto;
+}
+
 .contact a{
     color:rgb(205,198,192);
     font-weight: 700;
@@ -151,10 +155,5 @@ h3 a:hover{
     margin-top: 2.7em;
     margin-bottom: -.7em;
 }
-/*
-.ender{
-    margin: 0;
-    padding: 0;
-    height: 2.5em;
-}*/
+
 
