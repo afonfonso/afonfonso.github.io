@@ -6,7 +6,7 @@
 .landing-text{
     padding: 20px;
     border: 6px solid;
-    margin-bottom: -.2em;
+    margin-bottom: -.25em;
 }
 
 h1{
@@ -18,14 +18,15 @@ h1{
 h4,h3{
     font-family: 'Lato', sans-serif;
     font-weight: 400; 
-    margin-bottom: -.5em;
+    margin-bottom: -.45em;
     word-spacing: 1px;
 }
 
 i{
-    font-family: monospace;
+    font-family: 'Consola', monospace;
     font-weight: 400; 
     word-spacing: 0px;
+    font-size: 1em;
 }
 
 a{
