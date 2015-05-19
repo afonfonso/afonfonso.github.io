@@ -42,9 +42,15 @@ body {
 a{
     color: rgb(190,197,194);
     text-decoration: none;
+    transition: color .2s ease-in-out; 
 }
 
 a:hover{
+    color:darkgrey;
+    text-decoration: none;
+}
+
+h3 a:hover{
     color:darkgrey;
     text-decoration: none;
 }
@@ -130,13 +136,6 @@ a:hover{
     
     margin-top: 6em;
     margin-bottom: 2.5em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 3bc37e8... bottom margin safari check
-    
->>>>>>> parent of 3bc37e8... bottom margin safari check
     
     padding-top:6.3em;
     padding-bottom: 6.8em;
