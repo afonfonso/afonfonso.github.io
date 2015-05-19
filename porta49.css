@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-margin:0;
-padding:0;
-
 h1,h2,h3,p,a,span{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif; 
 }
@@ -132,8 +129,7 @@ a:hover{
     border-right: none;
     
     margin-top: 6em;
-    margin-bottom: 3em;
-    
+/*    margin-bottom: 2.5em;*/
     
     padding-top:6.3em;
     padding-bottom: 6.8em;
@@ -149,5 +145,7 @@ a:hover{
     margin-bottom: -.7em;
 }
 
-
+.ender{
+    height: 2.5em;
+}
 
