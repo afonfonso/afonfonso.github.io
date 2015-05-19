@@ -136,14 +136,13 @@ h3 a:hover{
     
     margin-top: 6em;
     margin-bottom: 2.5em;
-    overflow:visible;
     
     padding-top:6.3em;
     padding-bottom: 6.8em;
 }
 
-.contact nav{
-    margin-bottom: 1px;
+.margin-fix{
+    padding-bottom: 1px;
 }
 
 .contact a{
