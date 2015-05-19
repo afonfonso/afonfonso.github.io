@@ -143,7 +143,7 @@ h3 a:hover{
 }
 
 .section{
-    overflow: auto;
+    padding-bottom: 1px;
 }
 
 .contact a{
