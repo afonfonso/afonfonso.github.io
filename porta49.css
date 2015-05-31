@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1,h2,h3,p,a,span{
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif; 
+    font-family: 'Gotham A', 'Gotham B','Montserrat', Helvetica, Arial, sans-serif; 
 }
 
 html {
@@ -29,7 +29,7 @@ body {
 
 .navbar-custom {
     min-height: 20px;
-    color: rgb(190,197,194);
+    color: rgb(183,207,201);
     background-color: #fff;
     border: none;
 }
@@ -40,13 +40,13 @@ body {
 }
 
 a{
-    color: rgb(190,197,194);
+    color: rgb(183,207,201);
     text-decoration: none;
     transition: color .2s ease-in-out; 
 }
 
 a:hover{
-    color:darkgrey;
+    color:darkseagreen;
     text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h3 a:hover{
 .background{
     padding: 0;
     color: #fff;
-    background-color: rgb(205,198,192);
+    background-color: rgb(205,196,192);
 }
 
 .background h2{
@@ -129,8 +129,8 @@ h3 a:hover{
 }
 
 .contact{
-    color:rgb(205,198,192);
-    border: 4px solid rgb(190,197,194) ;
+    color:rgb(205,196,192);
+    border: 4px solid rgb(183,207,201) ;
     border-left: none;
     border-right: none;
     
@@ -146,8 +146,9 @@ h3 a:hover{
 }
 
 .contact a{
-    color:rgb(205,198,192);
+    color:rgb(205,196,192);
     font-weight: 700;
+    font-style: normal;
 }
 
 #contact{
@@ -155,4 +156,13 @@ h3 a:hover{
     margin-bottom: -.7em;
 }
 
+.plus{
+    right: 5%; 
+    padding: 0px 15px 0px 20px; 
+    border:0px;
+}
+
+div .plus:hover{
+    background-color:white;
+}
 
