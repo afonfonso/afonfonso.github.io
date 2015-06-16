@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 h1,h2,h3,p,a,span{
-    font-family: 'Gotham A', 'Gotham B','Montserrat', Helvetica, Arial, sans-serif; 
+    font-family: 'Gotham A', 'Gotham B', 
+        'Montserrat', Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+    
+    -webkit-font-smoothing: antialiased;
 }
 
 html {
