@@ -106,32 +106,6 @@ h3 a:hover{
         border-top: 0px solid transparent;
         border-bottom: 0px solid transparent;
     }
-    
-    .droptext {
-        height: 350px;
-        padding-top: 1em;
-        font-size: 1.1em;
-        text-align: justify
-    }
-    .slider {
-        margin-top: -350px;
-        height: 460px;
-        overflow: hidden;
-    }
-    .slide-up {
-        margin-top: 350px;
-        position: relative;
-        transition: margin-top 1s ease-in-out;
-    }
-    .slide-up:hover {
-        margin-top: 0px;
-    }
-    
-    .slider:hover{
-        margin-top: -350px;
-        height: 460px;
-        overflow: hidden;
-    }
 }
 
 .background{
@@ -177,6 +151,35 @@ h3 a:hover{
     transition: height .5s ease-in-out ;
 }
 
+
+@media only screen and (min-width: 768px) {
+    
+    .droptext {
+        height: 350px;
+        padding-top: 1em;
+        font-size: 1.1em;
+        text-align: justify
+    }
+    .slider {
+        margin-top: -350px;
+        height: 460px;
+        overflow: hidden;
+    }
+    .slide-up {
+        margin-top: 350px;
+        position: relative;
+        transition: margin-top 1s ease-in-out;
+    }
+    .slide-up:hover {
+        margin-top: 0px;
+    }
+    
+    .slider:hover{
+        margin-top: -350px;
+        height: 460px;
+        overflow: hidden;
+    }
+}
 
 
 .contact{
