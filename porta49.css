@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+@media only screen and (min-width: 768px) {
+    .droptext {
+        height: 350px;
+        padding-top: 1em;
+        font-size: 1.1em;
+        text-align: justify
+    }
+    .slider {
+        margin-top: -350px;
+        height: 460px;
+        overflow: hidden;
+    }
+    .slide-up {
+        margin-top: 350px;
+        position: relative;
+        transition: margin-top 1s ease-in-out;
+    }
+    .slide-up:hover {
+        margin-top: 0px;
+    }
+    
+    .slider:hover{
+        margin-top: -350px;
+        height: 460px;
+        overflow: hidden;
+    }
+}
+
 h1,h2,h3,p,a,span{
     font-family: 'Gotham A', 'Gotham B', 
         'Montserrat', Helvetica, Arial, sans-serif; 
@@ -152,33 +180,7 @@ h3 a:hover{
 }
 
 
-@media only screen and (min-width: 768px) {
-    .droptext {
-        height: 350px;
-        padding-top: 1em;
-        font-size: 1.1em;
-        text-align: justify
-    }
-    .slider {
-        margin-top: -350px;
-        height: 460px;
-        overflow: hidden;
-    }
-    .slide-up {
-        margin-top: 350px;
-        position: relative;
-        transition: margin-top 1s ease-in-out;
-    }
-    .slide-up:hover {
-        margin-top: 0px;
-    }
-    
-    .slider:hover{
-        margin-top: -350px;
-        height: 460px;
-        overflow: hidden;
-    }
-}
+
 
 
 .contact{
