@@ -98,7 +98,7 @@ h3 a:hover{
     border-bottom: 5px solid transparent;
 }
 
-@media only screen and (min-device-width : 768px) {
+@media only screen and (min-width : 768px) {
     .centre-border {
         background-clip: padding-box;
         border-left: 5px solid transparent;
@@ -153,7 +153,7 @@ h3 a:hover{
 
 
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
     
     .droptext {
         height: 350px;
