@@ -146,7 +146,7 @@ h3 a:hover{
 
 .slider:hover, .slider:focus{
     margin-top: 0px;
-    height: 300px;
+    height: 50%;
     overflow: hidden;
     transition: height .5s ease-in-out ;
 }
